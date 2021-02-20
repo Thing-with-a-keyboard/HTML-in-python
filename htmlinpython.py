@@ -26,4 +26,5 @@ def heading(docName, headSize, contents):
 def paragraph(docName, contents):
     with open(f"{docName}.html", 'a') as doc:
         doc.write(f"<p>{contents}</p>")
+        doc.close()
     """Adds a paragraph to an HTML document. </b> must be manually added into contents."""
