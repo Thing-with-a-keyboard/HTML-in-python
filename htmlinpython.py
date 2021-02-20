@@ -5,6 +5,7 @@ def initDoc(documentName):
         document.write(f"<title>{documentName}</title>\n")
         document.write(f"<body>\n")
         document.close()
+    """Creates and initialises the HTML document. ONLY USE ONCE PER DOCUMENT"""
 
 
 def endDoc(documentName):
@@ -12,3 +13,4 @@ def endDoc(documentName):
         document.write("</body>\n")
         document.write("</html>\n")
         document.close()
+    """Adds the closing tags to an HTML Document. ONLY USE AT THE END OF A DOCUMENT"""
